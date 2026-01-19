@@ -60,7 +60,7 @@ The project successfully detected multiple colored objects:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/color-detection-opencv.git
+git clone https://github.com/SahilBhatti09/color_detection-cv
 cd color-detection-opencv
 ```
 
@@ -168,22 +168,6 @@ The project uses these HSV ranges for detection:
 | **Green** | 40-80 | 50-255 | 50-255 | Includes lime |
 | **Yellow** | 20-40 | 100-255 | 100-255 | Bright yellows |
 
-### OpenCV Functions Used
-
-1. **`cv2.VideoCapture()`** - Camera access
-2. **`cv2.cvtColor()`** - Color space conversion
-3. **`cv2.inRange()`** - Color masking
-4. **`cv2.erode()`** - Morphological erosion
-5. **`cv2.dilate()`** - Morphological dilation
-6. **`cv2.findContours()`** - Contour detection
-7. **`cv2.contourArea()`** - Area calculation
-8. **`cv2.boundingRect()`** - Bounding box coordinates
-9. **`cv2.rectangle()`** - Drawing rectangles
-10. **`cv2.putText()`** - Adding text labels
-11. **`cv2.circle()`** - Drawing center points
-12. **`cv2.addWeighted()`** - Blending images
-13. **`cv2.bitwise_or()`** - Mask combination
-
 ---
 
 ## 🔮 Future Improvements
@@ -209,7 +193,7 @@ opencv/
 ├── detected_objects_1.jpg
 ├── detected_objects_2.jpg
 ├── detected_objects_3.jpg
-└── etected_objects_4.jpg
+└── detected_objects_4.jpg
 ```
 
 ---
